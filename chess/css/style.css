@@ -1,0 +1,101 @@
+body {
+    font-family: Arial, sans-serif;
+    text-align: center;
+    background-color: #f0f0f0;
+    font-size: 12px;
+}
+
+table {
+    border-collapse: collapse;
+    margin-bottom: 20px;
+}
+
+th, td {
+    border: 1px solid rgb(73, 72, 72);
+    padding: 10px;
+}
+
+tr:nth-child(even) td:nth-child(odd),
+tr:nth-child(odd) td:nth-child(even) {
+    background-color: #adadad; /* Light gray */
+}
+
+th {
+    background-color: #f2f2f2;
+}
+
+input {
+    margin-bottom: 10px;
+}
+
+h1 {
+    margin: 20px 0;
+    font-size: 25px;
+    color: #9b1f1f;
+}
+
+h2 {
+    margin: 30px 0;
+    font-size: 20px;
+    color: #ad471f;
+}
+
+table td {
+    width: 70px;
+    height: 50px;
+    text-align: center;
+    font-size: 15px;
+    color: #333;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+}
+
+.board-container {
+    margin-bottom: 20px;
+}
+
+
+
+#form-container {
+    margin-top: 20px;
+}
+
+form {
+    display: inline-block;
+    margin-bottom: 20px;
+}
+
+label {
+    margin-right: 5px;
+    font-size: 18px;
+}
+
+input[type="number"] {
+    width: 50px;
+    padding: 5px;
+    font-size: 15px;
+}
+
+button {
+    padding: 8px 16px;
+    font-size: 18px;
+    background-color: #006852;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #199c39;
+}
+
+.invalid {
+    background-color: #f00;
+    color: #8d1b1b;
+}
